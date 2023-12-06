@@ -23,6 +23,6 @@
     <version>3.3.2</version>
 </plugin>
 </plugins>
-    <finalName>dockeransible</finalName>
+    <!----<finalName>dockeransible</finalName>--->
   </build>
 </project>
