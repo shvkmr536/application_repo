@@ -39,7 +39,7 @@ jobs:
         name: result-artifact
         path: target/dockeransible.war
         
-    - name: Upload artifact
+    - name: download artifact
       uses: actions/download-artifact@v4
       with:
         name: my-artifact
