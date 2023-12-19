@@ -41,8 +41,8 @@ jobs:
     - name: download artifact
       uses: actions/download-artifact@v4
       with:
-         name: output artifact
-         path: path/to/artifacts
+         name: result-artifact
+         path: ./target
     - name: Display structure of downloaded files
       run: ls -R target/dockeransible.war
 
