@@ -20,8 +20,6 @@
     <version>3.0.1</version>
     </dependency>
   </dependencies>
-  <build>
-    <build>
         <plugins>
             <!-- Maven Build Number Plugin -->
             <plugin>
@@ -61,6 +59,7 @@
                 </configuration>
             </plugin>
         </plugins>
-    <finalName>dockeransible</finalName>
+        <build>
+    <finalName>${project.artifactId}-${project.version}-${git.commit.id.describe-short}</finalName>
   </build>
 </project>
