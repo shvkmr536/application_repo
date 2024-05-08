@@ -14,13 +14,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    <!-- https://mvnrepository.com/artifact/pl.project13.maven/git-commit-id-plugin -->
-<dependency>
+  <dependency>
     <groupId>pl.project13.maven</groupId>
     <artifactId>git-commit-id-plugin</artifactId>
     <version>3.0.1</version>
-</dependency>
     </dependency>
   </dependencies>
   <build>
